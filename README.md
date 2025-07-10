@@ -12,16 +12,15 @@ The aim of this project is to:
 - Identify the most impactful features that influence compensation.
 - Provide interpretable results using SHAP values.
 
+
 ---
 
 ## 📂 Repository Structure
 
-| File Name                                | Description |
-|-----------------------------------------|-------------|
-| `rf_salary_model_notebook_with_answers.ipynb` | Main Jupyter notebook with code, business questions, and written answers. |
-| `rf_salary_model_notebook_with_questions.ipynb` | Intermediate version of notebook with business questions added. |
-| `rf_salary_model_notebook.ipynb`        | Clean notebook version without questions or commentary. |
-| `rf_full_features_engineered.py`        | Original Python script used for feature engineering, modeling, and SHAP analysis. |
+| File Name                                     | Description                                                                                                          |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `rf_salary_model_notebook_with_answers.ipynb` | Main Jupyter notebook with all code, five business questions, and written answers interpreting the results.          |
+| `rf_full_features_engineered.py`              | Original Python script for data loading, feature engineering, Random Forest modeling, and SHAP-based interpretation. |
 
 ---
 
