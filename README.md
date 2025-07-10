@@ -1,4 +1,3 @@
-# stackoverflow-Survey-Insights
 # 🧠 Developer Salary Prediction Using Stack Overflow Survey 2024
 
 This repository presents a machine learning pipeline for predicting developer salaries using the 2024 Stack Overflow Developer Survey. It uses a Random Forest model and SHAP values to explain feature importance.
@@ -21,7 +20,7 @@ The aim of this project is to:
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | `rf_salary_model_notebook_with_answers.ipynb` | Main Jupyter notebook with all code, five business questions, and written answers interpreting the results.          |
 | `rf_full_features_engineered.py`              | Original Python script for data loading, feature engineering, Random Forest modeling, and SHAP-based interpretation. |
-| `Readme.md`                                   | Contains intro to the findings , links to used data and used packages. |
+| `Readme.md`                                   | Contains an introduction to the findings, links to the data used, and the packages used. |
 
 
 ---
