@@ -46,6 +46,6 @@ The aim of this project is to:
 
 ## 🙏 Acknowledgements
 
-- Data is sourced from the [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024).
+- Data is sourced from the [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip).
 - Thanks to the open-source community for tools like `scikit-learn` and `shap`.
 
