@@ -25,13 +25,14 @@ The aim of this project is to:
 
 ---
 
-## 🛠️ Libraries Used
+| Library        | Purpose                                                         | Official Source                                                        |
+| -------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `pandas`       | Data loading, filtering, and manipulation                       | [https://pandas.pydata.org/](https://pandas.pydata.org/)               |
+| `numpy`        | Numeric operations and handling missing values                  | [https://numpy.org/](https://numpy.org/)                               |
+| `scikit-learn` | Machine learning pipeline, preprocessing, modeling, and metrics | [https://scikit-learn.org/](https://scikit-learn.org/)                 |
+| `shap`         | Model interpretability (SHAP values for feature importance)     | [https://github.com/slundberg/shap](https://github.com/slundberg/shap) |
+| `logging`      | Informational logs for process tracking                         | Python standard library                                                |
 
-- `pandas`, `numpy` — Data manipulation
-- `scikit-learn` — Data preprocessing, modeling, and evaluation
-- `shap` — Model explainability
-- `matplotlib`/`seaborn` (optional for visualizations)
-- `logging` — Status reporting
 
 ---
 
