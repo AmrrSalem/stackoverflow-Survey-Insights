@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
-import zipfile
 import shap
 import logging
-
 from sklearn.impute import KNNImputer, SimpleImputer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
@@ -12,8 +10,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-# Config
-SURVEY_ZIP_FILE = 'stack-overflow-developer-survey-2024.zip'
+
 RANDOM_SEED = 42
 N_ESTIMATORS_RF = 200
 SHAP_BACKGROUND_SAMPLES = 50
@@ -45,10 +42,7 @@ def parse_age(age_str):
     return age_map.get(age_str, np.nan)
 
 
-import logging
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
+
 
 
 def load_and_prepare_data(
@@ -167,7 +161,7 @@ def shap_summary(pipeline, X_train, X_test, num_samples=SHAP_TEST_SAMPLES):
 def main():
     (X_train, X_test, y_train, y_test), num_cols, cat_cols = load_and_prepare_data()
     pipeline = build_pipeline(num_cols, cat_cols)
-    pipeline.fit(X_train, y_train)  # 🔥 Required for SHAP
+    pipeline.fit(X_train, y_train)
     evaluate_model(pipeline, X_train, y_train, X_test, y_test)
     shap_summary(pipeline, X_train, X_test)
 
