@@ -40,7 +40,7 @@ The aim of this project is to:
 
 ## 📈 Summary of Results
 
-- The Random Forest model achieves solid R² scores in cross-validation and test evaluation.
+- The Random Forest model achieves solid R² = {0.34} scores in cross-validation and test evaluation.
 - SHAP analysis indicates that **Country**, **Years of Professional Coding Experience**, and **Education Level** are the top predictors of salary.
 - The notebook answers 5 business questions related to salary prediction and feature importance.
 
