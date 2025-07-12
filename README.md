@@ -50,5 +50,12 @@ The aim of this project is to:
 
 - Data is sourced from the [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip).
 - Thanks to the open-source community for tools like `scikit-learn` and `shap`.
+---
+## 🔥 Inspirational Repositories
+The following open-source projects served as inspiration and reference points for this work:
+
+tien02/salary-prediction
+
+recodehive/Stackoverflow-Analysis
 
 
