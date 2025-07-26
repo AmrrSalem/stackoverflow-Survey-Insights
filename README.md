@@ -36,7 +36,7 @@ The aim of this project is to:
 | `logging`      | Informational logs for process tracking                         | Python standard library                                                |
 
 ---
-## <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/53e78f24-8cdd-43c2-9324-a42b9687468f" />  Install Dependencies 
+## <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/53e78f24-8cdd-43c2-9324-a42b9687468f" />  Install Dependencies 
 Install the required Python packages listed in requirements.txt:
 pip install -r requirements.txt
 
