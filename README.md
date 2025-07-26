@@ -35,6 +35,12 @@ The aim of this project is to:
 | `shap`         | Model interpretability (SHAP values for feature importance)     | [https://github.com/slundberg/shap](https://github.com/slundberg/shap) |
 | `logging`      | Informational logs for process tracking                         | Python standard library                                                |
 
+---
+## <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/53e78f24-8cdd-43c2-9324-a42b9687468f" /> Install Dependencies
+Install the required Python packages listed in requirements.txt:
+pip install -r requirements.txt
+
+---
 
 ---
 
