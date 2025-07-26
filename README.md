@@ -42,8 +42,6 @@ Install the required Python packages listed in requirements.txt:
 pip install -r requirements.txt
 ---
 
----
-
 ## 📈 Summary of Results
 
 - The Random Forest model achieves solid R² = {0.34} scores in cross-validation and test evaluation.
