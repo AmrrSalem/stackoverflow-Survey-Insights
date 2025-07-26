@@ -40,7 +40,7 @@ The aim of this project is to:
 
 Install the required Python packages listed in requirements.txt:
 
-\033[92mpip install -r requirements.txt\033[0m
+pip install -r requirements.txt
 
 ---
 
