@@ -43,6 +43,7 @@ The aim of this project is to:
 - The Random Forest model achieves solid R² = {0.34} scores in cross-validation and test evaluation.
 - SHAP analysis indicates that **Country**, **Years of Professional Coding Experience**, and **Education Level** are the top predictors of salary.
 - The notebook answers 5 business questions related to salary prediction and feature importance.
+- Medium's blog post provides a concise version of the results and findings. https://medium.com/@amrr.salem/developer-salaries-why-location-matters-more-than-you-think-cf38b6796014
 
 ---
 
