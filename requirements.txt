@@ -1,1 +1,21 @@
-numpy>=1.24.0 pandas>=2.0.0 shap>=0.41.0 scikit-learn>=1.2.0 seaborn>=0.12.0 matplotlib>=3.7.0
+# requirements.txt for notebook -v2.ipynb
+
+# Data manipulation and numerical operations
+pandas>=2.2.2
+numpy>=1.26.4
+
+# Machine learning and preprocessing
+scikit-learn>=1.5.1
+
+# Model interpretability
+shap>=0.46.0
+
+# Data visualization
+seaborn>=0.13.2
+matplotlib>=3.8.4
+
+# Logging (included in Python standard library, no need to install)
+# logging
+
+# Optional: Jupyter environment (if running in a notebook)
+jupyter>=1.0.0
